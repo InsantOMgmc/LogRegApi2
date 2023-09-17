@@ -1,0 +1,7 @@
+<div class="container">
+    <h1>Игра "Орел или Решка"</h1>
+    <p>Выберите орла или решку:</p>
+    <button (click)="play('орел')" class="btn">Орел</button>
+    <button (click)="play('решка')"class="btn">Решка</button>
+    <p *ngIf="result !== null">Результат: {{ result }}</p>
+  </div>
